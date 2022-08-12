@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/OIP.jpg);
+    background-position: center;
+    background-size: cover;
+   
+} 
+.navbar{
+    width: 80%;
+    margin: 10px auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 80px;
+
+
+}
+.logo h2{
+
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif;
+
+}
+.nav-links{
+    width: 350px;
+}
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: small;
+
+
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block ;
+    padding-left: 16px;
+    position: relative;
+
+}
+.nav-links ul i{
+    margin-left: 05px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.nav-links ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.nav-links ul ul li{
+    width: 200px;
+    background: black;
+}
+
+.nav-links ul ul ul{
+    top: 0;
+    left: 100%;
+    background: white;
+}
+
+.nav-links ul li:hover > ul{
+    display: block;
+    
+}
+
+
+.nav-links ul li a:hover{
+    color: blue;
+}
+
+
+.search{
+    width: 330px;
+
+}
+.srch{
+
+    height: 40px;
+    width: 200px;
+    background:white;
+    /* border-radius: 10px; */
+    border: 1px solid yellow;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:red;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid blueviolet;
+
+}
+.text-box{
+    width: 80%;
+    color: white;
+    margin:  auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-box1 h1{
+    font-size: 55px;
+}
+.text-box h1{
+    font-size: 50px;
+    color: aquamarine;
+
+
+}
+.text-box p{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
+}
+.btn-1{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background: red;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+
+}
+.btn-1:hover{
+    background:white ;
+}
+span{
+    color: pink;
+}
+.login{
+    width: 200px;
+    padding: 15px;
+    background: rgba(96, 131, 0, 0.76);
+    border-radius: 10px;
+}
+.login h3{
+    color:red;
+    text-align: center;
+    font-family: sans-serif;
+    background: white;
+    border-radius: 10px;
+    padding: 8px;
+
+
+}
+.login input{
+    width:170 ;
+    margin-bottom: 15px;
+    background: transparent;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+}
+
+.login input:focus{
+    outline: none;
+}
+.singup{
+    width: 230px;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+
+}
+.sign{
+    width: 100px;
+    height: 20px;
+
+
+}
+.service{
+    width: 100%;
+    background: black;
+    padding-top: 0%;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.service h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    /* margin-top: 15px; */
+}
+.service p{
+    color: red;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-col{
+    flex-basis: 28%;
+    padding: 20px;
+    border-radius: 10px;
+    background:pink;
+    text-align: left;
+    display: flex;
+    cursor: pointer;
+    top: 0;
+    position: relative;
+    transition: 0.5s;
+    
+}
+.service-col i{
+    color: blue;
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 13px;
+
+}
+.service-col h3{
+    font-size: 30pz;
+    padding-bottom: 10px;
+    color: blue;
+}
+#row{
+    margin-top: 0;
+}
+.service-col:hover{
+    box-shadow: 2px 20px 20px 4px red;
+    top: -10px;
+
+}
+
+.testimonial{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.testimonial-col{
+    flex-basis: 30%;
+    padding: 15px;
+    background-color: pink;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+.testimonial-col img{
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 50px;
+    top: -40px;
+    position: absolute;
+}
+
+.testimonial-col p{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
